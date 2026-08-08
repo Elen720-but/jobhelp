@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>JobBoost — Trouvez votre prochain emploi</title>
+<meta name="description" content="JobBoost vous accompagne pour trouver un emploi : rédaction de CV, recherche d'offres et accompagnement personnalisé." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== HEADER / NAVBAR ===== -->
+<header class="navbar" id="navbar">
+  <div class="container navbar__inner">
+    <a href="#top" class="logo">Job<span>Boost</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="./services-section.html">A propos</a>
+      <a href="#services">Services</a>
+      <a href="#comment-ca-marche">Comment ça marche</a>
+      <a href="#temoignages">Témoignages</a>
+      <a href="#candidature" class="btn btn--nav">S'inscrire</a>
+    </nav>
+
+    <button class="burger" id="burgerBtn" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero__bg"></div>
+  <div class="container hero__inner">
+    <div class="hero__text">
+      <span class="badge">🚀 Plus de 1 200 candidats accompagnés</span>
+      <h1>Trouvez le <span class="gradient-text">job idéal</span> plus vite, avec un vrai accompagnement humain</h1>
+      <p>
+        Rédaction de CV, recherche d'offres personnalisées et suivi WhatsApp direct :
+        on s'occupe de tout pour maximiser vos chances de décrocher un emploi rapidement.
+      </p>
+      <div class="hero__ctas">
+        <a href="#candidature" class="btn btn--primary">Postuler / S'inscrire</a>
+        <a href="#comment-ca-marche" class="btn btn--ghost">Voir comment ça marche</a>
+      </div>
+      <div class="hero__stats">
+        <div><strong>1 200+</strong><span>Candidats aidés</span></div>
+        <div><strong>85%</strong><span>Taux de satisfaction</span></div>
+        <div><strong>48h</strong><span>Délai moyen de réponse</span></div>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="floating-card card-1">📄 CV optimisé</div>
+      <div class="floating-card card-2">💼 Offre trouvée</div>
+      <div class="floating-card card-3">✅ Entretien décroché</div>
+      <div class="hero__blob"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="tag">Nos services</span>
+      <h2>Un accompagnement complet, à chaque étape</h2>
+      <p>Nous vous aidons de A à Z dans votre recherche d'emploi.</p>
+    </div>
+
+    <div class="grid grid--3">
+      <div class="card">
+        <div class="card__icon">📝</div>
+        <h3>Rédaction de CV</h3>
+        <p>Un CV professionnel, clair et percutant, adapté au poste que vous visez.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon">🤝</div>
+        <h3>Accompagnement personnalisé</h3>
+        <p>Un conseiller dédié vous guide et vous conseille tout au long du processus.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon">🔎</div>
+        <h3>Recherche d'offres</h3>
+        <p>Nous identifions pour vous les offres correspondant à vos compétences et disponibilités.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COMMENT ÇA MARCHE ===== -->
+<section class="steps" id="comment-ca-marche">
+  <div class="container">
+    <div class="section-head">
+      <span class="tag">Processus</span>
+      <h2>Comment ça marche</h2>
+      <p>Un processus simple en 4 étapes pour démarrer.</p>
+    </div>
+
+    <div class="grid grid--4">
+      <div class="step">
+        <div class="step__num">1</div>
+        <h3>Inscription</h3>
+        <p>Remplissez le formulaire de candidature en quelques minutes.</p>
+      </div>
+      <div class="step">
+        <div class="step__num">2</div>
+        <h3>Contact WhatsApp</h3>
+        <p>Vous serez redirige vers un conseiller whatsapp afin de finaliser l'inscription.</p>
+      </div>
+      <div class="step">
+        <div class="step__num">3</div>
+        <h3>Préparation</h3>
+        <p>Nous préparons votre CV et ciblons les meilleures offres.</p>
+      </div>
+      <div class="step">
+        <div class="step__num">4</div>
+        <h3>Placement</h3>
+        <p>Vous postulez avec confiance et décrochez votre emploi.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TÉMOIGNAGES ===== -->
+<section class="testimonials" id="temoignages">
+  <div class="container">
+    <div class="section-head">
+      <span class="tag">Témoignages</span>
+      <h2>Ils ont trouvé leur emploi grâce à nous</h2>
+    </div>
+
+    <div class="grid grid--3">
+      <div class="testimonial">
+        <p>"Grâce à l'accompagnement, j'ai obtenu un entretien en moins d'une semaine !"</p>
+        <div class="testimonial__author">— Amina K.</div>
+      </div>
+      <div class="testimonial">
+        <p>"Mon CV a été totalement transformé. Résultat : embauchée en 3 semaines."</p>
+        <div class="testimonial__author">— Fatou D.</div>
+      </div>
+      <div class="testimonial">
+        <p>"Un suivi humain et rapide sur WhatsApp, exactement ce dont j'avais besoin."</p>
+        <div class="testimonial__author">— Karim B.</div>
+      </div>
+    </div>
+
+    <div class="impact-stats">
+      <div class="impact-stat"><strong>1 200+</strong><span>Candidats accompagnés</span></div>
+      <div class="impact-stat"><strong>320+</strong><span>Entreprises partenaires</span></div>
+      <div class="impact-stat"><strong>92%</strong><span>Taux de réponse</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FORMULAIRE DE CANDIDATURE ===== -->
+<section class="apply" id="candidature">
+  <div class="container apply__inner">
+    <div class="section-head">
+      <span class="tag">Rejoignez-nous</span>
+      <h2>Formulaire de candidature</h2>
+      <p>Remplissez ce formulaire pour être accompagné(e).</p>
+    </div>
+
+    <form id="applyForm" class="form-card" enctype="multipart/form-data" novalidate>
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="fullName">Nom complet *</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Ex : Jean Dupont" required />
+        </div>
+
+        <div class="form-group">
+          <label for="age">Âge *</label>
+          <input type="number" id="age" name="age" min="14" max="99" placeholder="Ex : 25" required />
+        </div>
+
+        <div class="form-group">
+          <label for="address">Adresse physique *</label>
+          <input type="text" id="address" name="address" placeholder="Quartier, ville, pays" required />
+        </div>
+
+        <div class="form-group">
+          <label for="poBox">Boîte postale</label>
+          <input type="text" id="poBox" name="poBox" placeholder="Ex : BP 1234" />
+        </div>
+
+        <div class="form-group">
+          <label for="availability">Disponibilité *</label>
+          <select id="availability" name="availability" required>
+            <option value="" disabled selected>Choisissez une option</option>
+            <option value="Temps plein">Temps plein</option>
+            <option value="Temps partiel">Temps partiel</option>
+            <option value="Matin (8h-12h)">Matin (8h-12h)</option>
+            <option value="Après-midi (13h-17h)">Après-midi (13h-17h)</option>
+            <option value="Soir (18h-22h)">Soir (18h-22h)</option>
+            <option value="Week-ends uniquement">Week-ends uniquement</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="skills">Compétences / Domaine d'intérêt *</label>
+          <input type="text" id="skills" name="skills" placeholder="Ex : Vente, Informatique, Comptabilité..." required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Numéro WhatsApp / Téléphone *</label>
+          <input type="tel" id="phone" name="phone" placeholder="Ex : +33 X XX XX XX XX" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Adresse email *</label>
+          <input type="email" id="email" name="email" placeholder="Ex : jobboost@example.com" required />
+        </div>
+      </div>
+
+      <div class="form-group form-group--full">
+        <label for="idDocument"> Piece d'identite(CNI, Passeport..) facultatif </label>
+        <input
+          type="file"
+          id="idDocument"
+          name="idDocument"
+          accept="image/jpeg,image/png,application/pdf"
+          />
+          <small class="form-hint">Formats acceptes : JPG, PNG, PDF - 5 Mo maximum.</small>
+      </div>
+
+      <div id="formMessage" class="form-message" role="alert"></div>
+
+      <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+        Envoyer ma candidature
+      </button>
+      <p class="form-note">En soumettant, vous serez redirigé(e) vers WhatsApp pour discuter avec un assistant afin de finaliser votre inscription.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__col">
+      <a href="#top" class="logo logo--footer">Job<span>Boost</span></a>
+      <p>Votre partenaire pour une recherche d'emploi réussie.</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Liens rapides</h4>
+      <a href="#services">Services</a>
+      <a href="#comment-ca-marche">Comment ça marche</a>
+      <a href="#temoignages">Témoignages</a>
+      <a href="./services-section.html">A propos</a>
+      <a href="#candidature">S'inscrire</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <p>📧 jobboost595@gmail.com</p>
+      <p>📍 Paris, France</p>
+      <a href="https://wa.me/33745582358" target="_blank" rel="noopener" class="whatsapp-btn">
+        💬 Discuter sur WhatsApp
+      </a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>&copy; <span id="year"></span> JobBoost. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/33745582358" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contacter sur WhatsApp">
+  💬
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

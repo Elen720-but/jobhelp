@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Moyens de paiement — JobBoost</title>
+<meta name="description" content="Choisissez votre moyen de paiement : virement bancaire, PayPal ou crypto-monnaie." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="paiement.css" />
+</head>
+<body>
+
+<!-- ===== HEADER / NAVBAR ===== -->
+<header class="navbar" id="navbar">
+  <div class="container navbar__inner">
+    <a href="index.html#top" class="logo">Job<span>Boost</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="./services-section.html">A propos</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#comment-ca-marche">Comment ça marche</a>
+      <a href="index.html#temoignages">Témoignages</a>
+      <a href="index.html#candidature" class="btn btn--nav">S'inscrire</a>
+    </nav>
+
+    <button class="burger" id="burgerBtn" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO PAIEMENT ===== -->
+<section class="pay-hero">
+  <div class="container">
+    <span class="badge">💳 Paiement sécurisé</span>
+    <h1>Choisissez votre <span class="gradient-text">moyen de paiement</span></h1>
+    <p>Réglez nos services d'accompagnement en toute simplicité, via la méthode qui vous convient le mieux.</p>
+  </div>
+</section>
+
+<!-- ===== SECTION PAIEMENTS ===== -->
+<section class="pay-section">
+  <div class="container">
+
+    <p class="pay-security-note">
+      🔒 Pour votre sécurité, les coordonnées de paiement (IBAN, adresse PayPal, adresse crypto) ne sont pas affichées publiquement.
+      Choisissez votre méthode ci-dessous : vous serez redirigé(e) vers WhatsApp, où un conseiller vous communiquera les informations et finalisera la procédure avec vous.
+    </p>
+
+    <div class="pay-grid">
+
+      <!-- VIREMENT BANCAIRE -->
+      <div class="pay-card">
+        <div class="pay-card__icon pay-card__icon--blue">🏦</div>
+        <h3>Virement bancaire</h3>
+        <p class="pay-card__desc">Réglez par virement depuis votre banque. Un conseiller vous communique l'IBAN et les coordonnées complètes sur WhatsApp.</p>
+
+        <a
+          href="#"
+          class="btn btn--whatsapp-method"
+          data-method="Virement bancaire"
+        >
+           Payer par virement bancaire
+        </a>
+      </div>
+
+      <!-- PAYPAL -->
+      <div class="pay-card">
+        <div class="pay-card__icon pay-card__icon--indigo">💰</div>
+        <h3>PayPal</h3>
+        <p class="pay-card__desc">Payez rapidement via PayPal. Un conseiller vous envoie le lien de paiement sécurisé sur WhatsApp.</p>
+
+        <a
+          href="#"
+          class="btn btn--whatsapp-method"
+          data-method="PayPal"
+        >
+           Payer avec PayPal
+        </a>
+      </div>
+
+      <!-- CRYPTO -->
+      <div class="pay-card">
+        <div class="pay-card__icon pay-card__icon--orange">🪙</div>
+        <h3>Crypto-monnaie</h3>
+        <p class="pay-card__desc">Réglez en Bitcoin ou USDT (TRC20). Un conseiller vous transmet l'adresse de portefeuille sur WhatsApp.</p>
+
+        <a
+          href="#"
+          class="btn btn--whatsapp-method"
+          data-method="Crypto-monnaie (Bitcoin / USDT)"
+        >
+           Payer en crypto-monnaie
+        </a>
+        <p class="pay-warning">⚠️ Vérifiez toujours l'adresse et le réseau communiqués avant tout envoi. Les transactions crypto sont irréversibles.</p>
+      </div>
+
+    </div>
+
+    <!-- CONFIRMATION -->
+    <div class="pay-confirm">
+      <h3>Après votre paiement</h3>
+      <p>Envoyez-nous une capture d'écran ou le reçu de votre transaction sur WhatsApp pour confirmation rapide.</p>
+      <a href="https://wa.me/33745582358?text=Bonjour%2C%20je%20viens%20d%27effectuer%20un%20paiement%20pour%20les%20services%20JobBoost." target="_blank" rel="noopener" class="whatsapp-btn">
+        💬 Envoyer ma preuve de paiement
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__col">
+      <a href="index.html" class="logo logo--footer">Job<span>Boost</span></a>
+      <p>Votre partenaire pour une recherche d'emploi réussie.</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Liens rapides</h4>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#comment-ca-marche">Comment ça marche</a>
+      <a href="index.html#temoignages">Témoignages</a>
+      <a href="./services-section.html">A propos</a>
+      <a href="paiement.html">Paiement</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <p>📧 jobboost595@gmail.com</p>
+      <p>📍 Paris, France</p>
+      <a href="https://wa.me/33745582358" target="_blank" rel="noopener" class="whatsapp-btn">
+        💬 Discuter sur WhatsApp
+      </a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>&copy; <span id="year"></span> JobBoost. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/33745582358" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contacter sur WhatsApp">
+  💬
+</a>
+
+<script src="script.js"></script>
+<script src="paiement.js"></script>
+</body>
+</html>
