@@ -14,7 +14,7 @@
     "cv",
     "accompagnement"
   ],
-  "author": "Vera",
+  "author": "Vere",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.2",
