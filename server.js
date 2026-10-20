@@ -293,7 +293,8 @@ app.get("*", (req, res) => {
 });
 
 // --- Démarrage du serveur ---
-ensureDataFile();
-app.listen(PORT, () => {
-  console.log(`🚀 Serveur démarré sur http://localhost:${PORT}`);
-});
+module.exports = app;
+
+if (require.main === module) {
+  app.listen(3000, () => console.log('Serveur démarré sur http://localhost:3000'));
+}
